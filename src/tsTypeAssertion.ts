@@ -4,6 +4,9 @@ let varALength:number=(variableA as string).length;
 //program 2
 let variableB:any="hello Javascript";
 let varBLen:number=(<string>variableB).length
+// let numz:any=123;
+// let numzNew=(<number>numz)
+// console.log(typeof(numzNew))
 
 //program3
  type Human={
@@ -26,3 +29,4 @@ let varBLen:number=(<string>variableB).length
  type EmpS={id:number,nameS:string,salary:number}
  let dataS:any={id:1,names:"sss",salary:50000}
  let varS:EmpS=dataS as EmpS
+ 
